@@ -38,13 +38,6 @@ public class Ads : MonoBehaviour {
 		    if (PlayerPrefs.GetInt ("GameOver") == 0) {
 			    AdShowed = true;
 		    }
-            /*if (AdShowed)
-            {
-                bannerView.Show();
-            }
-            else {
-                bannerView.Hide();
-            }*/
         }
     }
 }
