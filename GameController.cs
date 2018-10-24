@@ -287,22 +287,7 @@ public class GameController : MonoBehaviour {
 		HandCountForRuned = 0;
 		RunedCount = 0;
 		TheEnd = 0;
-		/*
-			PlayerPrefs.SetInt ("Box_1_1_1", 1);
-			PlayerPrefs.SetInt ("Box_2_1_1", 0);
-			PlayerPrefs.SetInt ("Box_2_1_2", 0);
-			PlayerPrefs.SetInt ("Box_3_1_1", 0);
-			PlayerPrefs.SetInt ("Box_3_1_2", 0);
-			PlayerPrefs.SetInt ("Box_3_1_3", 0);
-			PlayerPrefs.SetInt ("Box_3_1_4", 0);
-			PlayerPrefs.SetInt ("Box_3_2_1", 0);
-			PlayerPrefs.SetInt ("Box_3_2_2", 0);
-			PlayerPrefs.SetInt ("Box_4_1_1", 0);
-			PlayerPrefs.SetInt ("Box_5_1_1", 0);
-			PlayerPrefs.SetInt ("Box_5_1_2", 0);
-			PlayerPrefs.SetInt ("Box_5_1_3", 0);
-			PlayerPrefs.SetInt ("Box_5_1_4", 0);
-			*/
+		
 		if (HandCount2 != HandCount) {
 			HandCount2 = Hand.Length;
 		}
