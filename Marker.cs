@@ -35,10 +35,6 @@ public class Marker : MonoBehaviour {
 				}
 				ItsHit = true;
 				if (Draw && ColorCheck && transform.parent.parent.GetComponent<Movement>().ErrorShit) {
-						/*hit.transform.gameObject.GetComponent<SpriteRenderer> ().material.color = 
-							Color.Lerp (hit.transform.gameObject.GetComponent<SpriteRenderer> ().material.color, 
-							new Color (ParentColor [0], ParentColor [1], ParentColor [2], ParentColor [3]), 
-							Mathf.PingPong (Time.time, 1));*/
 					hit.transform.gameObject.GetComponent<SpriteRenderer> ().material.color = new Color (ParentColor [0], ParentColor [1], ParentColor [2], ParentColor [3]);
 					if (Input.GetMouseButtonUp (0)) {
 						MarkCheck = false;
