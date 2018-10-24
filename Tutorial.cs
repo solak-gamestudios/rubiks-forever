@@ -9,7 +9,6 @@ public class Tutorial : MonoBehaviour {
     public GameObject _2_0, _2_1, _2_2, _2_3; bool _2_b = true;
     public GameObject _3_0, _3_1, _3_2, _3_3; bool _3_b = true;
     public GameObject _4_0, _4_1, _4_2, _4_3; bool _4_b = true;
-    //public GameObject _1_t_en, _1_t_tr, _2_t_en, _2_t_tr, _3_t_en, _3_t_tr;
     int TCount;
     //string lng;
 
@@ -87,9 +86,6 @@ public class Tutorial : MonoBehaviour {
         _2_2.gameObject.SetActive(false);
         yield return new WaitForSeconds(0.4f);
         _2_b = true;
-        /*if (lng == "tr") {
-            _1_t_tr.gameObject.SetActive(true);
-        }*/
     }
     IEnumerator _3_()
     {
@@ -105,9 +101,6 @@ public class Tutorial : MonoBehaviour {
         _3_2.gameObject.SetActive(false);
         yield return new WaitForSeconds(0.4f);
         _3_b = true;
-        /*if (lng == "tr") {
-            _1_t_tr.gameObject.SetActive(true);
-        }*/
     }
     IEnumerator _4_()
     {
@@ -123,8 +116,5 @@ public class Tutorial : MonoBehaviour {
         _4_2.gameObject.SetActive(false);
         yield return new WaitForSeconds(0.4f);
         _4_b = true;
-        /*if (lng == "tr") {
-            _1_t_tr.gameObject.SetActive(true);
-        }*/
     }
 }
