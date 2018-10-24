@@ -13,13 +13,13 @@ public class Ads : MonoBehaviour {
     // Use this for initialization
     void Awake () {
         if (PlayerPrefs.GetInt("RemoveAds") == 0) {
-            //ca-app-pub-8696786032145652/9590712123 Banner
-            //ca-app-pub-8696786032145652/4744076525 Full
+            //ca-app-pub- Banner
+            //ca-app-pub- Full
 
-            interstitial = new InterstitialAd("ca-app-pub-8696786032145652/4744076525");
+            interstitial = new InterstitialAd("ca-app-pub-");
             interstitial.LoadAd(new AdRequest.Builder().Build());
 
-            bannerView = new BannerView("ca-app-pub-8696786032145652/9590712123", AdSize.SmartBanner, AdPosition.Top);
+            bannerView = new BannerView("ca-app-pub-", AdSize.SmartBanner, AdPosition.Top);
             bannerView.LoadAd(new AdRequest.Builder().Build());
         }
     }
